@@ -1,0 +1,31 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.create-post {
+  font-size: 36px;
+  font-weight: 700;
+  margin-left: 1vw;
+  cursor: pointer;
+}
+.search-cont input {
+  margin-right: 2vw;
+  border: none;
+  height: 4vh;
+  width: 10vw;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.posts-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+  gap: 20px;
+}
